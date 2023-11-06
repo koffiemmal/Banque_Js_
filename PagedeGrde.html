@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PDG.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href="./banque.html">  <div class="scrolling-text">BIENVUENUE A TRANSVISION BANQUE</div></a>
+
+    <script>
+        // JavaScript pour l'animation de défilement
+        const scrollingText = document.querySelector('.scrolling-text');
+        
+        setTimeout(() => {
+            scrollingText.style.transition = 'top 3s, opacity 0.5s';
+            scrollingText.style.top = '400px';  // Position cible
+            scrollingText.style.opacity = '1';  // Rendre le texte visible
+            scrollingText.style.fontSize="70px"
+            scrollingText.style.textAlign="center"
+        }, 500);  // Déclenche l'animation après 0,5 seconde
+    </script>
+</body>
+</html> 

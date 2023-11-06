@@ -1,0 +1,19 @@
+body{
+    background-image: url(./dossier/wallet-credit-card-with-coin-money-online-shopping-payment-concept-orange-background-3d-rendering.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 95vh;
+}
+.scrolling-text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight:bolder;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.601);
+
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+}
